@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        #my_div_1 {
+            outline: none;
+            height: 200px;
+            position: absolute;
+            bottom: 50%;
+
+        }
+
+        #my_div {
+            outline: none;
+            height: 200px;
+        }
+
+        .space {
+            position: absolute;
+            top: 50%;
+            left: 0%;
+        }
+
+        #sample {
+            outline: none;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h4 class="flow_head">Borcelle Company</h4>
+        <h1 class="sub_head">Fishbone Diagram</h1>
+    </header>
+    <div class="container-fluid space">
+        <div class="flex" >
+            <div>
+                <svg width="100" height="200" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 20 A20 20 0 0 1 20 5 L90 50 A20 20 0 0 1 90 80 L20 130 A20 20 0 0 1 0 115 Z"
+                        class="small_triangle" />
+                </svg>
+            </div>
+            <section class="time-line-box">
+                <div class="swiper-container text-center">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="timestamp"><span class="date">
+                                </span></div>
+                            <div class="single_line"><span>
+                                    <div id="my_div_1">
+                                        <svg class="cros_line_1" width="100%" height="100%" 
+                                            preserveAspectRatio="none" style="transform: scaleY(-1);">
+                                            <line x1="170" y1="00" x2="00" y2="250" vector-effect="non-scaling-stroke"
+                                            stroke="#000" stroke-dasharray="2 5" stroke-width="2" />
+                                        </svg>
+                                        <div class="mini_circle mini_1_1"></div>
+                                        <div class="mini_circle mini_1_2 "></div>
+                                        <div class="mini_circle mini_1_3"></div>
+                                        <div class="big_circle big_circle_1"></div>
+                                        <span class="arrow_top_head head_font">Quality product</span>
+                                        <span class="text_font op_1">opction 01</span>
+                                        <span class="text_font op_2">opction 02</span>
+                                        <span class="text_font op_3">opction 03</span>
+                                    </div>
+                                </span></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="timestamp"><span class="date"></span></div>
+                            <div class="status"><span class="circle-1">
+                                    <div id="my_div">
+                                        <svg class="cross_line" width='100%' height='100%'
+                                            preserveAspectRatio='none'>
+                                            <line x1="170" y1="00" x2="00" y2="250" vector-effect="non-scaling-stroke"
+                                            stroke="#000" stroke-dasharray="2 5" stroke-width="2" />
+                                        </svg>
+                                        <div class="mini_circle mini_2_1"></div>
+                                        <div class="mini_circle mini_2_2 "></div>
+                                        <div class="mini_circle mini_2_3"></div>
+                                        <div class="big_circle big_circle_2"></div>
+                                        <p class="head_font head_two">Management</p>
+                                        <p class="text_font m_op_1">opction 01</p>
+                                        <p class="text_font m_op_2">opction 02</p>
+                                        <p class="text_font m_op_3">opction 03</p>
+                                    </div>
+                                </span></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="timestamp"><span class="date"></span></div>
+                            <div class="status"><span class="circle-2">
+                                    <div id="my_div_1">
+                                        <svg class="cros_line" width="100%" height="100%" 
+                                            preserveAspectRatio="none" style="transform: scaleY(-1);">
+                                            <line x1="170" y1="00" x2="00" y2="250" vector-effect="non-scaling-stroke"
+                                                stroke="#000" stroke-dasharray="2 5" stroke-width="2" />
+                                        </svg>
+                                        <div class="mini_circle mini_3_1"></div>
+                                        <div class="mini_circle mini_3_2 "></div>
+                                        <div class="mini_circle mini_3_3"></div>
+                                        <div class="big_circle big_circle_3"></div>
+                                        <p class="head_font head_three">High Price</p>
+                                        <p class="text_font h_op_1">opction 01</p>
+                                        <p class="text_font h_op_2">opction 02</p>
+                                        <p class="text_font h_op_3">opction 03</p>
+                                    </div>
+                                </span></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="timestamp"><span class="date"></span></div>
+                            <div class="status"><span class="circle-3"></span></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="timestamp"><span class="date"></span></div>
+                            <div class="status"><span class="circle-4">
+                                <div id="my_div">
+                                    <svg class="cro_line" width='100%' height='100%' preserveAspectRatio='none'>
+                                    
+                                        <line x1="170" y1="00" x2="00" y2="250" vector-effect="non-scaling-stroke"
+                                            stroke="#000" stroke-dasharray="2 5" stroke-width="2" />
+
+                                        </svg>
+                                        <div class="mini_circle mini_4_1"></div>
+                                        <div class="mini_circle mini_4_2 "></div>
+                                        <div class="mini_circle mini_4_3"></div>
+                                        <div class="big_circle big_circle_4"></div> 
+                                        <p class="head_font head_four">Marketing</p>
+                                        <p class="text_font ma_op_1">opction 01</p>
+                                        <p class="text_font ma_op_2">opction 02</p>
+                                        <p class="text_font ma_op_3">opction 03</p>
+                                </div>
+                                </span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="last_angle">
+                <svg width="250" height="300">
+                    <path d="M0 55 A75 75 0 0 1 75 0 L220 90 A100 105 0 0 1 200 225 L75 300 A75 75 0 0 1 0 225 Z"
+                        class="big_triangle" />
+                </svg>
+                <div class="eye"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
